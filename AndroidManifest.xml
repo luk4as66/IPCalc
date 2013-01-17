@@ -30,6 +30,15 @@
             android:name="com.smartThings.ipcalc.EditPreferences"
             android:label="@string/app_name" >
         </activity>
+        <activity 
+            android:name="com.smartThings.ipcalc.TabAActivity">
+        </activity>
+        <activity 
+            android:name="com.smartThings.ipcalc.TabBActivity">
+        </activity>
+        <activity 
+            android:name="com.smartThings.ipcalc.TabCActivity">
+        </activity>
     </application>
 
 </manifest>
