@@ -22,12 +22,12 @@ public class MainActivity extends TabActivity {
 		
 		//tab A
 		TabSpec tAspec = tabHost.newTabSpec("tab [A]");
-		tAspec.setIndicator("zakladka A");
+		tAspec.setIndicator("Policz IP");
 		Intent tabAIntent = new Intent(this, TabAActivity.class);
 		tAspec.setContent(tabAIntent);
 		//tab B
 		TabSpec tBspec = tabHost.newTabSpec("tab [B]");
-		tBspec.setIndicator("zakladka B");
+		tBspec.setIndicator("Maski");
 		Intent tabBIntent = new Intent(this, TabBActivity.class);
 		tBspec.setContent(tabBIntent);
 		//tab C
