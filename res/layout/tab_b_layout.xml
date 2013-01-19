@@ -1,14 +1,648 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="1"
+    android:fillViewport="true">
     
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+     <TableLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="CIDR"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="Mask"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="Available slots"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="1"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="128.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="2147483646"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="2"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="192.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="1073741822"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="3"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="224.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="536870910"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="4"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="240.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="268435454"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="5"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="248.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="134217726"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="6"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="252.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="67108862"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="7"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="254.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="33554430"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="8"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.0.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="16777214"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="9"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.128.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="8388606"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="10"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.192.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="4194302"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="11"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.224.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="2097150"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="12"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.240.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="1048574"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="13"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.248.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="524286"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="14"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.252.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="262142"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="15"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.254.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="131070"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="16"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.0.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="65534"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="17"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.128.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="32766"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="18"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.192.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="16382"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="19"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.224.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="8190"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="20"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.240.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="4094"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="21"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.248.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="2046"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="22"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.252.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="1022"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="23"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.254.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="510"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="24"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.0"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="254"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="25"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.128"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="126"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="26"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.192"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="62"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="27"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.224"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="30"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="28"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.24"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="14"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="29"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.248"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="6"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
+    
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="30"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            
+            android:layout_width="70dp" />
+        <TextView android:text="255.255.255.252"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="140dp" />
+        <TextView android:text="2"
+            android:background="#999999"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:layout_width="110dp" />
+    </TableRow>
    
-   <TextView  
-   	android:text="Tab B"
-   	android:padding="15dip"
-   	android:layout_width="fill_parent"
-   	android:layout_height="wrap_content" 
-   /> 
+</TableLayout>
+</ScrollView>
+     
+
+
 </LinearLayout>
