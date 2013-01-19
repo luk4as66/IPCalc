@@ -18,7 +18,7 @@ public class TabAActivity extends Activity implements OnTouchListener{
 		TextView textIpAddr = (TextView)findViewById(R.id.count_ip);
 		textMacAddr.setText(IpCounter.getMacAddress(this));
 		textIpAddr.setText(IpCounter.getIPaddress());
-	}
+	}//
 	
 	@Override
 	public boolean onTouch(View arg0, MotionEvent arg1){
