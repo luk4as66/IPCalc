@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.ActionBar.Tab;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TabHost;
@@ -39,6 +40,8 @@ public class MainActivity extends TabActivity {
 		tabHost.addTab(tAspec);
 		tabHost.addTab(tBspec);
 		tabHost.addTab(tCspec);
+		
+	
 	}
 
 	@Override
